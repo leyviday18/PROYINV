@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Devoluciones - PROYINV</title>
+</head>
+<body>
+    <h2>Formulario de Devoluciones</h2>
+    <form>
+        <label for="id_devolucion">ID de Devolución:</label><br>
+        <input type="text" id="id_devolucion" name="id_devolucion" required><br><br>
+
+        <label for="codigo_producto">Código del Producto:</label><br>
+        <input type="text" id="codigo_producto" name="codigo_producto" required><br><br>
+
+        <label for="cantidad">Cantidad a Devolver:</label><br>
+        <input type="number" id="cantidad" name="cantidad" required><br><br>
+
+        <label for="motivo_devolucion">Motivo de la Devolución:</label><br>
+        <textarea id="motivo_devolucion" name="motivo_devolucion" rows="4" cols="30" required></textarea><br><br>
+
+        <button type="submit">Guardar Devolución</button>
+    </form>
+</body>
+</html>
